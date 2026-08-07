@@ -1,0 +1,171 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:81b2a81f-3c66-4074-b82d-e591fa088210",
+  "version": "1",
+  "metadata": {
+    "timestamp": "2026-08-07T22:09:45+08:00"
+  },
+  "components": [
+    {
+      "name": "base-files",
+      "version": "1705~15a2a6f463",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dropbear",
+      "version": "2026.94-r1",
+      "cpe": "cpe:/a:dropbear_ssh_project:dropbear_ssh",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fstools",
+      "version": "2026.07.25~2aa16407-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "fwtool",
+      "version": "2025.10.03~04cd252e-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "grub2-bios-setup",
+      "version": "2.12-r1",
+      "cpe": "cpe:/a:gnu:grub2",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ]
+    },
+    {
+      "name": "kernel",
+      "version": "6.18.43~e93197334912565bb797fbd1641e4285-r1",
+      "cpe": "cpe:/o:linux:linux_kernel",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libc",
+      "version": "1.2.6-r5",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-with-GCC-exception"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libgcc1",
+      "version": "16.1.0-r5",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-with-GCC-exception"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libpthread",
+      "version": "1.2.6-r5",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-with-GCC-exception"
+          }
+        }
+      ]
+    },
+    {
+      "name": "librt",
+      "version": "1.2.6-r5",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-with-GCC-exception"
+          }
+        }
+      ]
+    },
+    {
+      "name": "libxtables12",
+      "version": "1.8.10-r3",
+      "cpe": "cpe:/a:netfilter:iptables",
+      "type": "library",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mtd",
+      "version": "28",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-2.0+"
+          }
+        }
+      ]
+    },
+    {
+      "name": "nu801",
+      "version": "0~f623879a-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-or-later"
+          }
+        }
+      ]
+    }
+  ]
+}
