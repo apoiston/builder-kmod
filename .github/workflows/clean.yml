@@ -23,6 +23,6 @@ jobs:
         with:
           cloudflare_account_id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           cloudflare_api_token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          project_name: extkmods extsystem
+          project_name: initkmods initsystem
           enable_delete_deployments: true 
           delete_deployments_days: ${{ inputs.delete_deployments_days || '15' }}
