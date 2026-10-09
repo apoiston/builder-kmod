@@ -15,10 +15,7 @@ CONFIG_KERNEL_BUILD_DOMAIN="builder"
 CONFIG_KERNEL_BUILD_USER="apois"
 CONFIG_LINUX_7_3=y
 CONFIG_OPTIMIZE_HOST_TOOLS=y
-# CONFIG_PACKAGE_kmod-jool-netfilter is not set
 CONFIG_PACKAGE_kmod-net-selftests=y
-# CONFIG_PACKAGE_kmod-netatop is not set
-# CONFIG_PACKAGE_kmod-pf-ring is not set
 CONFIG_PACKAGE_kmod-phy-package=y
 CONFIG_TARGET_OPTIMIZATION="-O2 -pipe"
 CONFIG_TARGET_OPTIONS=y
