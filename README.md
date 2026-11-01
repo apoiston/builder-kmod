@@ -1,3 +1,5 @@
+[![Build Status](https://github.com/apoiston/builder-kmod/actions/workflows/build.yml/badge.svg)](https://github.com/apoiston/builder-kmod/actions/workflows/build.yml)
+
 # OpenWrt Kmod
 
 ## Firmware Download
