@@ -83,6 +83,32 @@ jobs:
             ${{ env.WORK_DIR }}/dist-kmods/
             ${{ env.WORK_DIR }}/dist-system/
 
+      - name: Create tag
+        id: create_tag
+        continue-on-error: true        
+        run: |
+          TAG="$(date '+%y.%m.%d')"
+          if git ls-remote --tags origin "$TAG" | grep -q "$TAG"; then
+            git push origin --delete "$TAG" || true
+          fi
+          git tag -d "$TAG" 2>/dev/null || true
+          git tag "$TAG"
+          git push origin "$TAG"
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+
+      - name: Release
+        continue-on-error: true
+        uses: softprops/action-gh-release@v3
+        with:
+          name: OpenWrt Kmod ${{ steps.create_tag.outputs.tag }}
+          tag_name: ${{ steps.create_tag.outputs.tag }}
+          body_path: ${{ env.WORK_DIR }}/CHANGELOG.md
+          files: |
+            ${{ env.WORK_DIR }}/*.zst
+          make_latest: true
+          draft: false
+          prerelease: false
+
   deploy:
     needs: build
     name: Deploy ${{ matrix.branch }}
