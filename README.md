@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/apoiston/builder-kmod/actions/workflows/build.yml/badge.svg)](https://github.com/apoiston/builder-kmod/actions/workflows/build.yml)
+[![Build Status](https://github.com/apoiston/builder-kmod/actions/workflows/build.yml/badge.svg)](https://github.com/apoiston/builder-kmod/actions/workflows/build.yml) [![GitHub release](https://img.shields.io/github/v/release/apoiston/builder-kmod)](https://github.com/apoiston/builder-kmod/releases)
 
 # OpenWrt Kmod
 
